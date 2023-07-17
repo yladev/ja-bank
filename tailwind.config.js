@@ -12,6 +12,13 @@ module.exports = {
         "color-white": "#fff",
         "color-blod": "#A427DF",
       },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "20px",
+          md: "50px",
+        },
+      },
     },
   },
   plugins: [],
