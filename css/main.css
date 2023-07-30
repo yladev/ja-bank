@@ -997,14 +997,14 @@ video {
     width: 13rem;
   }
 
-  .lg\:after\:bg-\[url\(\'\/img\/line\.png\'\)\]::after {
-    content: var(--tw-content);
-    background-image: url('/img/line.png');
-  }
-
   .lg\:after\:bg-\[url\(\'\/img\/line-bottom\.png\'\)\]::after {
     content: var(--tw-content);
     background-image: url('/img/line-bottom.png');
+  }
+
+  .lg\:after\:bg-\[url\(\'\/img\/line\.png\'\)\]::after {
+    content: var(--tw-content);
+    background-image: url('/img/line.png');
   }
 
   .lg\:after\:bg-no-repeat::after {
